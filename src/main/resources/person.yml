@@ -1,0 +1,24 @@
+person:
+    name: "zhangsan \n"
+    username: \u5F20\u4E09
+    age: 18
+    pet:
+    name: \u5C0F\u72D7
+    gender: male
+    animal:
+        - dog
+        - cat
+        - fish
+    interests: [\u8DB3\u7403\uFF0C\u7BEE\u7403]
+    firends:
+        -
+        - zhangsan is my best friend
+        - "lisi\n"
+    childs:
+        - name: xiaozhang
+    age: 18
+        - name: xiaoli
+    pet:
+        - a
+        - b
+        - {name: lisi,age: 18}

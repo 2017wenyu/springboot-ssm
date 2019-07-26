@@ -1,0 +1,41 @@
+spring:
+  datasource:
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/user_test?useUnicode=true&characterEncoding=utf8
+
+mybatis.configuration.map-underscore-to-camel-case: true
+
+man:
+  last: zhangsan
+  age: 18
+  boss: false
+  birth: 2019/7/26
+  maps: {k1: v1,k2: v2}
+  lists:
+    - lisi
+    - zhangsan
+  dog:
+    name: xiaogou
+    age: 2
+
+
+
+
+#logging:
+#  level:
+#    root: WARN
+#    org:
+#      springframework:
+#        security: DEBUG
+#        web: ERROR
+#      hibernate: DEBUG
+#      apache:
+#        commons:
+#          dbcp2: DEBUG
+#  file: mylogfile.log
+#  path: concretepage/logs
+#  pattern:
+#    file: '%d{yyyy-MMM-dd HH:mm:ss.SSS} %-5level [%thread] %logger{15} - %msg%n'
+#    console: '%d{yyyy-MMM-dd HH:mm:ss.SSS} %-5level [%thread] %logger{15} - %msg%n'
